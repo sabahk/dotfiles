@@ -77,17 +77,11 @@ $(brew --prefix)/bin/npm install --global prettier
 apps=(
     "google-chrome"
     "firefox"
-    "brave-browser"
-    "sublime-text"
     "visual-studio-code"
-    "virtualbox"
-    "spotify"
-    "discord"
-    "google-drive"
-    "gimp"
-    "vlc"
     "rectangle"
     "postman"
+    "raycast"
+    "iterm2"
 )
 
 # Loop over the array to install each application.
@@ -129,12 +123,6 @@ brew upgrade --cask
 brew cleanup
 
 echo "Sign in to Google Chrome. Press enter to continue..."
-read
-
-echo "Sign in to Spotify. Press enter to continue..."
-read
-
-echo "Sign in to Discord. Press enter to continue..."
 read
 
 echo "Open Rectangle and give it necessary permissions. Press enter to continue..."

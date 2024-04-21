@@ -7,7 +7,7 @@ echo "Press enter to continue..."
 read
 
 # Set scroll as traditional instead of natural
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false && killall Finder
+# defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false && killall Finder
 
 # Get the absolute path to the image
 IMAGE_PATH="${HOME}/dotfiles/settings/Desktop.png"
