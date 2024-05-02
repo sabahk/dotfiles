@@ -76,12 +76,14 @@ $(brew --prefix)/bin/npm install --global prettier
 # Define an array of applications to install using Homebrew Cask.
 apps=(
     "google-chrome"
-    "firefox"
+    "firefox-developer-edition"
     "visual-studio-code"
     "rectangle"
     "postman"
     "raycast"
     "iterm2"
+    "superkey"
+    "displaylink"
 )
 
 # Loop over the array to install each application.
@@ -94,12 +96,12 @@ for app in "${apps[@]}"; do
     fi
 done
 
-# Install Source Code Pro Font
+# Install Fira Code Font
 # Tap the Homebrew font cask repository if not already tapped
 brew tap | grep -q "^homebrew/cask-fonts$" || brew tap homebrew/cask-fonts
 
 # Define the font name
-font_name="font-source-code-pro"
+font_name="font-fira-code-nerd-font"
 
 # Check if the font is already installed
 if brew list --cask | grep -q "^$font_name\$"; then

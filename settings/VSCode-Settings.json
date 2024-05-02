@@ -1,14 +1,14 @@
 {
-  "workbench.colorTheme": "Predawn",
-  "workbench.iconTheme": "ayu",
-  "editor.fontFamily": "Source Code Pro",
-  "debug.console.fontFamily": "Source Code Pro",
+  "workbench.colorTheme": "Eva Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "debug.console.fontFamily": "Fira Code",
   "editor.fontWeight": "500",
   "terminal.integrated.fontWeight": "600",
-  "editor.fontSize": 16, //Use 22 for Screen Recordings
-  "debug.console.fontSize": 16, //Use 22 for Screen Recordings
-  "terminal.integrated.fontSize": 16, //Use 22 for Screen Recordings
-  "window.zoomLevel": 0, // Use 2 for Screen Recordings
+  "editor.fontSize": 16,
+  "debug.console.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "window.zoomLevel": 0,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[shellscript]": {

@@ -7,16 +7,25 @@ fi
 
 # Install VS Code Extensions
 extensions=(
+    pkief.material-icon-theme
     ms-python.python
     ms-python.pylint
     ms-python.vscode-pylance
     ms-python.debugpy
-    GitHub.copilot
-    ms-vscode.Theme-PredawnKit
-    teabyii.ayu
+    fisheva.eva-theme
+    mikael.angular-beastcode
+    eamodio.gitlens
+    chrmarti.regex
+    swyphcosmo.spellchecker
+    evondev.indent-rainbow-palettes
+    formulahendry.auto-rename-tag
+    pranaygp.vscode-css-peek
+    davidanson.vscode-markdownlint
+    zhang-renyang.vscode-react
+    dsznajder.es7-react-js-snippets
     formulahendry.code-runner
     esbenp.prettier-vscode
-    znck.grammarly
+    ms-azuretools.vscode-docker
 )
 
 # Get a list of all currently installed extensions.
