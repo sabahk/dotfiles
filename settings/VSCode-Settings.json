@@ -1,8 +1,8 @@
 {
   "workbench.colorTheme": "Eva Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "Fira Code",
-  "debug.console.fontFamily": "Fira Code",
+  "editor.fontFamily": "Monaco",
+  "debug.console.fontFamily": "Monaco",
   "editor.fontWeight": "500",
   "terminal.integrated.fontWeight": "600",
   "editor.fontSize": 16,

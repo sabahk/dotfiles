@@ -24,12 +24,12 @@ for file in "${files[@]}"; do
 done
 
 # Run the MacOS Script
-./macOS.sh
+#./macOS.sh
 
 # Run the Homebrew Script
-./brew.sh
+#./brew.sh
 
 # Run VS Code Script
-./vscode.sh
+#./vscode.sh
 
 echo "Installation Complete!"
