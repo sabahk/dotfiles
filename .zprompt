@@ -3,8 +3,6 @@ source "${HOME}/dotfiles/.shared_prompt"
 
 PS1="\$(prompt_venv)" # virtual environment
 PS1="%{$(tput setaf 75)%}%n%{$(tput setaf 15)%}@%{$(tput setaf 81)%}%m %{$(tput setaf 15)%}%1~ %{$(tput sgr0)%}"
-PS1+="\$(prompt_git)" # Git repository details
-PS1+="%{${white}%}\$ %{${reset}%}" # `$` (and reset color)
 export PS1
 
 PS2="%{${%(tput setaf 105)%}%}→ %{${reset}%}"

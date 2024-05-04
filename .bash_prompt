@@ -3,9 +3,6 @@ source "${HOME}/dotfiles/.shared_prompt"
 
 PS1="\$(prompt_venv)" # virtual environment
 PS1="\[\e[38;5;45m\]\s\[\e[97m\]@\[\e[38;5;39m\]\w\[\e[0m\] \\"
-PS1+="\$(prompt_git)" # Git repository details
-PS1+=
-PS1+="\[${white}\]\$ \[${reset}\]" # `$` (and reset color)
 export PS1
 
 PS2="\[\e[38;5;247m\]\s\[\e[0m\]→ \[${reset}\]"
