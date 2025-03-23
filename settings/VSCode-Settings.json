@@ -1,13 +1,11 @@
 {
-  "workbench.colorTheme": "Eva Dark",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "Monaco",
-  "debug.console.fontFamily": "Monaco",
-  "editor.fontWeight": "500",
-  "terminal.integrated.fontWeight": "600",
-  "editor.fontSize": 16,
-  "debug.console.fontSize": 16,
-  "terminal.integrated.fontSize": 16,
+  "workbench.colorTheme": "huytd.tokyo-city",
+  "workbench.iconTheme": "yummygum.city-lights-icon-vsc-light",
+  "editor.fontFamily": "Menlo",
+  "debug.console.fontFamily": "Menlo",
+  "editor.fontSize": 12,
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
   "window.zoomLevel": 0,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -36,6 +34,7 @@
       "other": "off"
     }
   },
+  "explorer.openEditors.visible": 10,
   "editor.quickSuggestionsDelay": 100,
   "zenMode.centerLayout": false,
   "zenMode.fullScreen": false,

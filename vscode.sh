@@ -12,7 +12,7 @@ extensions=(
     ms-python.pylint
     ms-python.vscode-pylance
     ms-python.debugpy
-    fisheva.eva-theme
+    huytd.tokyo-city
     mikael.angular-beastcode
     eamodio.gitlens
     chrmarti.regex
