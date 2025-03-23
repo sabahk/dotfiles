@@ -13,6 +13,7 @@ extensions=(
     ms-python.vscode-pylance
     ms-python.debugpy
     huytd.tokyo-city
+    yummygum.city-lights-icon-vsc
     mikael.angular-beastcode
     eamodio.gitlens
     chrmarti.regex
